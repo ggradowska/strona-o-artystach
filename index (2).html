@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popularni Piosenkarze</title>
+    <link rel="stylesheet" href="styyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Popularni Piosenkarze z Całego Świata</h1>
+      <nav>
+        <ul>
+          <li><a href="#singer1">Adele</a></li>
+          <li><a href="#singer2">Ed Sheeran</a></li>
+          <li><a href="#singer3">Beyoncé</a></li>
+          <li><a href="#singer4">Shakira</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="singer" id="singer1">
+        <h2>Adele</h2>
+        <img src="adele.jpg" alt="Adele" width="150px" height="150px" />
+        <p>
+          Adele Laurie Blue Adkins, znana jako Adele, jest brytyjską piosenkarką
+          i autorką tekstów, znana ze swojego głębokiego głosu i emocjonalnych
+          ballad.
+        </p>
+        <button onclick="showDetails('singer1')">Więcej szczegółów</button>
+        <div class="details" id="details-singer1">
+          <p>Hity: "Hello", "Someone Like You", "Rolling in the Deep"</p>
+          <p>Albumy: 19, 21, 25, 30</p>
+        </div>
+      </section>
+      <section class="singer" id="singer2">
+        <h2>Ed Sheeran</h2>
+        <img
+          src="ed_sheeran.jpg"
+          alt="Ed Sheeran"
+          width="150px"
+          height="150px"
+        />
+        <p>
+          Edward Christopher Sheeran, znany jako Ed Sheeran, jest brytyjskim
+          piosenkarzem i autorem tekstów, znanym z hitów takich jak "Shape of
+          You" i "Perfect".
+        </p>
+        <button onclick="showDetails('singer2')">Więcej szczegółów</button>
+        <div class="details" id="details-singer2">
+          <p>Hity: "Shape of You", "Perfect", "Thinking Out Loud"</p>
+          <p>Albumy: +, x, ÷, No.6 Collaborations Project</p>
+        </div>
+      </section>
+      <section class="singer" id="singer3">
+        <h2>Beyoncé</h2>
+        <img src="beyonce.jpg" alt="Beyoncé" width="150px" height="150px" />
+        <p>
+          Beyoncé Giselle Knowles-Carter, znana jako Beyoncé, jest amerykańską
+          piosenkarką, autorką tekstów i aktorką, znana z potężnego głosu i
+          energetycznych występów.
+        </p>
+        <button onclick="showDetails('singer3')">Więcej szczegółów</button>
+        <div class="details" id="details-singer3">
+          <p>Hity: "Crazy in Love", "Single Ladies", "Halo"</p>
+          <p>
+            Albumy: Dangerously in Love, B'Day, I Am... Sasha Fierce, Lemonade
+          </p>
+        </div>
+      </section>
+      <section class="singer" id="singer4">
+        <h2>Shakira</h2>
+        <img src="shakira.jpg" alt="Shakira" width="150px" height="150px" />
+        <p>
+          Shakira Isabel Mebarak Ripoll, znana jako Shakira, jest kolumbijską
+          piosenkarką, autorką tekstów i tancerką, znana z hitów takich jak
+          "Hips Don't Lie" i "Whenever, Wherever".
+        </p>
+        <button onclick="showDetails('singer4')">Więcej szczegółów</button>
+        <div class="details" id="details-singer4">
+          <p>Hity: "Hips Don't Lie", "Whenever, Wherever", "Waka Waka"</p>
+          <p>
+            Albumy: Pies Descalzos, Dónde Están los Ladrones?, Laundry Service,
+            El Dorado
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
